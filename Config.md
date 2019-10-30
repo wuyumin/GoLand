@@ -83,10 +83,21 @@ File -> Settings -> Keymap
 
 ### 保存代码时自动格式化代码
 
+`建议设置 Level 全部设置为 Global ，方便所有项目都能使用`
+
+[Go语言]  
 保存代码时，自动调用 gofmt 和 goimports 来格式化代码。  
 
 菜单 File -> Settings -> Tools -> File Watchers 分别添加`gofmt`和`goimports`模板。  
 gofmt作用：格式化代码  
 goimports作用：格式化导入的包  
 
-`建议以上设置项 Level 全部设置为 Global ，方便所有项目都能使用`
+[Node语言]  
+代码格式化
+全局安装prettier `npm i prettier -g` (环境变量路径中能直接调用命令)  
+安装Prettier插件  
+菜单 File -> Settings -> Tools -> File Watchers 添加`Prettier`模板，Program填写全局能使用的`prettier`命令。  
+
+代码语法检查
+全局安装eslint `npm i -g eslint` (环境变量路径中能直接调用命令)  
+安装ESLint插件  
