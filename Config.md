@@ -110,5 +110,5 @@ prettier配置(使用单引号等)
 ```
 
 代码语法检查
-全局安装eslint `npm i -g eslint` (环境变量路径中能直接调用命令)  
+全局安装eslint `npm i eslint -g` (环境变量路径中能直接调用命令)  
 安装ESLint插件  
