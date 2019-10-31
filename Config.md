@@ -99,10 +99,13 @@ goimports作用：格式化导入的包
 菜单 File -> Settings -> Tools -> File Watchers 添加`Prettier`模板，Program填写全局能使用的`prettier`命令。  
   
 prettier配置(使用单引号等)  
-项目根目录下`.prettierrc.json`
+项目根目录下`.prettierrc`
 ```json
 {
-  "singleQuote": true
+  "singleQuote": true,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "bracketSpacing": false
 }
 ```
 
