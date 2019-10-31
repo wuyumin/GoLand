@@ -97,6 +97,14 @@ goimports作用：格式化导入的包
 全局安装prettier `npm i prettier -g` (环境变量路径中能直接调用命令)  
 安装Prettier插件  
 菜单 File -> Settings -> Tools -> File Watchers 添加`Prettier`模板，Program填写全局能使用的`prettier`命令。  
+  
+prettier配置(使用单引号等)  
+项目根目录下`.prettierrc.json`
+```json
+{
+  "singleQuote": true
+}
+```
 
 代码语法检查
 全局安装eslint `npm i -g eslint` (环境变量路径中能直接调用命令)  
