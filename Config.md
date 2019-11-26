@@ -105,7 +105,8 @@ prettier配置(使用单引号等)
   "singleQuote": true,
   "printWidth": 120,
   "tabWidth": 2,
-  "bracketSpacing": false
+  "bracketSpacing": false,
+  "trailingComma": "es5"
 }
 ```
 
