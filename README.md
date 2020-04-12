@@ -7,4 +7,4 @@ GoLand 官方网站及下载：<https://www.jetbrains.com/go>
 - [GoLand 快捷键](Shortcut.md)
 - [GoLand 技巧](Skill.md)
 - [GoLand 常用插件](Plugin.md)
-- [Emmet 技巧](Emmet.md)
+- Emmet 技巧
