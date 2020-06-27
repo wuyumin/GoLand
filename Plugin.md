@@ -1,6 +1,6 @@
 # 常用插件
 
-### Protobuf Support
+### Protocol Buffer Editor
 
 支持 Protocol Buffer
 
