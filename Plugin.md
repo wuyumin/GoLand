@@ -1,5 +1,9 @@
 # 常用插件
 
+### Chinese ​(Simplified)​ Language Pack
+
+中文语言包
+
 ### Protocol Buffer Editor
 
 支持 Protocol Buffer
