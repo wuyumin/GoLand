@@ -29,6 +29,10 @@ File -> Settings -> Editor -> Code Style -> Go -> Other 标签项，去掉勾选
 
 File -> Settings -> Editor -> General -> Appearance 去掉勾选 Show parameter name hints。
 
+### 取消`fmt.Sprintf`等函数的格式化字符串样式？
+
+File -> Settings -> Editor -> Genaral -> Code Folding -> Go 去掉勾选 Format strings
+
 ### jQuery 代码提示？
 
 File -> Settings -> Languages & Frameworks -> JavaScript -> Libraries
